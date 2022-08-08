@@ -21,7 +21,7 @@ const routes = [
         component: AboutView
     },
     {
-        path: '/detail/:id',
+        path: '/detail/:id/:types',
         component: DetailView
     }
 ]
