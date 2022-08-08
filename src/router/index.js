@@ -22,7 +22,8 @@ const routes = [
     },
     {
         path: '/detail/:id/:types',
-        component: DetailView
+        component: DetailView,
+        name: 'detail-page'
     }
 ]
 
